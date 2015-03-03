@@ -4,10 +4,16 @@ MAINTAINER codyhanson <chanson@uwalumni.com>
 #Common tools and libs that I need
 RUN apt-get update && apt-get install -y \
     curl \
-    libpcap0.8 \
+    htop \
     python2.7 \
+    libpcap0.8 \
+    multitail \
+    nmap \
+    slurm \
     tmux \
-    nmap
+    unzip \
+    vifm \
+    vim 
 
 #tmux configuration
 ADD https://raw.githubusercontent.com/codyhanson/dotfiles/master/.tmux.conf /root/.tmux.conf

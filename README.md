@@ -12,5 +12,5 @@ Start up a throwaway environment:
 docker run -it --rm custombuntu
 ```
 
-If you don't want to container to be removed after it exits, leave off the `--rm` flag. 
+If you don't want the container to be removed after it exits, leave off the `--rm` flag. 
 This allows you to restart the container with the filesystem intact.
