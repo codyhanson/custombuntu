@@ -4,6 +4,7 @@ MAINTAINER codyhanson <chanson@uwalumni.com>
 #Common tools and libs that I need
 RUN apt-get update && apt-get install -y \
     curl \
+    traceroute \
     htop \
     python2.7 \
     libpcap0.8 \
